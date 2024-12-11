@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Times New Roman;
+  background-color: antiquewhite;
+}
+
+/* Form Validation */
+.validation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  background-color: floralwhite;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #222;
+}
+
+.validation h2 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+.main-validation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.validation-input input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: transparent;
+  font-size: 11px;
+  cursor: pointer;
+}
+.validation-input input:focus {
+  outline: none;
+}
+
+.validation-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.validation-btn button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.separator {
+  margin: 25px 0;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.separator .line {
+  width: 120px;
+  height: 1px;
+  margin: 0 10px;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.validation-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.validation-links a {
+  text-decoration: none;
+  color: #000;
+}
+
+.validation-links i {
+  font-size: 25px;
+}
